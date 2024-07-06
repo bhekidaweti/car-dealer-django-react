@@ -1,0 +1,95 @@
+/* CarDetail.css */
+
+.car-detail {
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.mySlides {
+  display: block;
+}
+
+.mySlides img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 10px;
+  color: white;
+  margin-top: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.column img {
+  opacity: 0.6;
+}
+
+.column img.active, .column img:hover {
+  opacity: 1;
+}
+
+.car-specifications {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.car-specifications th,
+.car-specifications td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.car-specifications th {
+  background-color: #f4f4f4;
+  text-align: left;
+}

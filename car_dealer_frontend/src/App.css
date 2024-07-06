@@ -1,0 +1,35 @@
+.car-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.car-item {
+  flex: 1 1 calc(25% - 20px);
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.car-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.car-item h2 {
+  font-size: 1.5em;
+  margin: 0 0 10px 0;
+}
+
+.car-item p {
+  margin: 5px 0;
+}
+
+.car-item button {
+  margin-right: 10px;
+}
