@@ -22,22 +22,33 @@ To test the functionality of this app you can follow these instructions:
 
 1. Clone the Repository
 
-`git clone https://github.com/bhekidaweti/car-dealer-django-react.git`
-cd car-dealer-django-react
+	```
+		git clone https://github.com/bhekidaweti/car-dealer-django-react.git
+	```
+	```
+		cd car-dealer-django-react
+	```
 
 2. Set Up the Backend
 
 	Navigate to the backend directory:
 
-	car_dealer_backend
+	```
+ 		cd car_dealer_backend
+	 ```
 	Create a virtual environment and activate it:
 
 	```python 
 		python -m venv env
 	```
-	source env/bin/activate  
-	On Windows use env\Scripts\activate
-3. Install dependencies:
+ 	```
+		source env/bin/activate
+  	```  
+	On Windows use:
+	```
+ 		env\Scripts\activate
+ 	```
+4. Install dependencies:
 	```python
 	pip install -r requirements.txt
 	```
@@ -45,11 +56,11 @@ cd car-dealer-django-react
 	```python 
 	python manage.py migrate
 	```
-4. Start the Django development server:
+5. Start the Django development server:
 	```python
 		python manage.py runserve
 	```
-5. Set Up the Frontend
+6. Set Up the Frontend
 
 	Navigate to the frontend directory:
 ```python
