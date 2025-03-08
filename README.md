@@ -52,14 +52,17 @@ cd car-dealer-django-react
 5. Set Up the Frontend
 
 	Navigate to the frontend directory:
-
+```python
 	cd car_dealer_front_end
+```
 	Install dependencies:
-
+```python
 	npm install
+```
 	Start the React development server:
-
+```python
 	npm start
+```
 	Access the App
 
 	Open your browser and go to http://localhost:3000 to view the React frontend.
